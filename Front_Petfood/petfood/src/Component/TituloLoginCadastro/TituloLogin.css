@@ -1,0 +1,23 @@
+.Component_TituloLoginCadastro {
+    margin        : 0px 0px 0px 10vw;
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    height        : 50px;
+    overflow      : hidden
+}
+
+.Component_TituloLoginCadastro>img {
+    height: 60px;
+    width : 60px;
+}
+
+.Component_textLoginCadastro {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 20px;
+    line-height: 120%;
+    color      : #1A1D26;
+    margin-top : -20px;
+}

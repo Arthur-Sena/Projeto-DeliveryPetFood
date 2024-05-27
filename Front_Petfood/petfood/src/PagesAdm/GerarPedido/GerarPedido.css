@@ -1,0 +1,33 @@
+.GerarPedido {
+    background-color: rgba(136, 136, 136, 0.1);
+    min-height      : 100vh;
+    max-width       : 100vw;
+    overflow        : hidden;
+}
+
+.Select_GerarPedido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Form_UsuarioGerarPedido{
+    text-align: center;
+}
+
+.Form_UsuarioGerarPedido> input{
+    margin:4px 5px;
+    width: 45vw;
+    height: 21px;
+
+}
+
+.Form_UsuarioGerarPedido> button{
+    width: 160px;
+    height: 21px;
+}
+
+.checkbox_pagamentoPagamentoGerarPedido{
+    display: flex;
+    flex-direction: column;
+}

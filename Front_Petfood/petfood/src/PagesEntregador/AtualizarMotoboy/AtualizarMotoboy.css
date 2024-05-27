@@ -1,0 +1,24 @@
+.Section_AtualizarMotoboy {
+    height     : 85%;
+    display    : grid;
+    place-items: center;
+}
+
+.form_AtualizarMotoboy {
+    width: 100%;
+}
+
+.btn_AtualizarMotoboy {
+    width           : 65%;
+    height          : 6vh;
+    border          : none;
+    font-size       : large;
+    font-weight     : bolder;
+    outline         : none;
+    background-color: var(--amarelo);
+    box-shadow      : 2px 2px 5px var(--text-color);
+    border-radius   : 15px;
+    padding-left    : 15px;
+    padding-right   : 15px;
+    margin-top      : 2.5vh;
+}

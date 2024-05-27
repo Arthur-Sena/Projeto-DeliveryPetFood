@@ -1,0 +1,9 @@
+.TituloPedidosRecentes {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 550;
+    font-size  : 16px;
+    line-height: 20px;
+    color      : #111719;
+    margin: 20px 0px 0px 20px;
+}

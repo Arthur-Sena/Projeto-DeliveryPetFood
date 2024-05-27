@@ -1,0 +1,88 @@
+:root {
+    --branco         : #FFFFFF;
+    --cinza-claro    : #FFFBFF;
+    --amarelo        : #FFCE00;
+    --vermelho       : #FF2226;
+    --vermelho-escuro: #e82b2f;
+    --text-color     : #403F4C;
+}
+
+/*#region -- Estilização o Geral  */
+.Component_SlideProduto {
+    display       : flex;
+    flex-direction: row;
+    overflow      : auto;
+    width         : 100vw;
+    height        : 235px;
+    margin        : 8px 0px;
+}
+
+.Component_SlideProduto::-webkit-scrollbar {
+    background-color: var(--cinza-claro);
+    height          : 6px;
+}
+
+.Component_SlideProduto::-webkit-scrollbar-thumb {
+    background-color: rgb(206, 206, 206);
+}
+
+/*#endregion */
+
+.Component_CardProdutoSlide {
+    height        : 225px;
+    width         : 140px;
+    display       : flex;
+    flex-direction: column;
+    margin        : 2px 8px 0px 16px;
+    border-radius : 10px;
+    box-shadow    : 1px 1px 2px 2px rgba(64, 63, 76, 15%);
+}
+
+.Component_ImagemDoCard {
+    height     : 140px;
+    width      : 142px;
+    display    : grid;
+    place-items: center;
+    overflow   : hidden;
+}
+
+.Component_CardImg {
+    max-height: 130px;
+    max-width : 130px;
+}
+
+.Component_CardDescricao {
+    height        : 85px;
+    width         : 140px;
+    background    : linear-gradient(180deg, #FED8DD 0%, #FEE4DA 100%);
+    box-shadow    : 24.4479px 32.5972px 73.3438px rgba(233, 233, 233, 0.25);
+    display       : flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Component_NomeProduto {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 12px;
+    line-height: 15px;
+    color      : #EF3838;
+    padding    : 4px 6px 4px 12px;
+}
+
+.Component_PrecoProduto {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 11px;
+    line-height: 14px;
+    padding    : 0px 6px 4px 12px;
+}
+
+@media (max-width:700px) {
+    .Component_SlideProduto::-webkit-scrollbar {
+        background-color: rgb(247, 247, 247);
+        height          : 2px;
+    }
+}

@@ -1,0 +1,13 @@
+.Entregues {
+    background-color: #191933;
+    min-height: 100vh;
+    padding-bottom: 5vh;
+}
+
+.DivPai_ReturnEntregasConcluidas{
+    max-height: 84vh;
+    overflow:scroll;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+} 

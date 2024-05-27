@@ -1,0 +1,18 @@
+.AvaliadorPetshop {
+    margin-top: 0.5vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.estrela {
+    display:flex;
+    flex-direction: row;
+}
+
+.divEstrelaPetshop > img {
+    height: 3.3vh;
+    filter: invert(100%);
+    margin-right:1vw;
+}

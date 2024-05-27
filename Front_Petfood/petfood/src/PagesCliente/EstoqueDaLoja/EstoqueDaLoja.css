@@ -1,0 +1,743 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.EstoqueDaLoja {
+    min-height      : 100vh;
+    max-width       : 100vw;
+    overflow        : hidden;
+    background-color: #ffffff;
+}
+
+/* #region "----Navigator----" */
+.Nav_Estoque_User {
+    padding         : 10px 20px 0px 20px;
+    display         : flex;
+    flex-direction  : row;
+    align-items     : center;
+    background-color: #FFFFFF;
+    align-items     : center;
+    position        : fixed;
+    height          : 45px
+}
+
+.Div_NavEstoqueImg {
+    width      : 20vw;
+    display    : grid;
+    place-items: center;
+}
+
+.icon_NavEstoque {
+    height: 38px;
+    width : 38px;
+}
+
+.Div_NavEstoqueH2 {
+    color       : white;
+    min-width   : 80vw;
+    font-family : 'Quicksand';
+    font-style  : normal;
+    font-weight : 600;
+    font-size   : 16px; 
+    margin-top  : -10px;
+    color       : #EF3838;
+    padding-left: 15%;
+}
+
+/* #endregion */
+
+
+/*  #region "Header - Imformacoes do Petshop" */
+.Div_HeaderPetshop {
+    padding         : 10px 20px;
+    display         : flex;
+    flex-direction  : row;
+    background-color: #FFFFFF;
+    margin-bottom   : 20px;
+    margin-top      : 55px;
+}
+
+.DivImg_HeaderPetshop {
+    display    : grid;
+    place-items: center;
+    overflow   : hidden;
+    width      : 100px;
+}
+
+.Img_HeaderPetshop {
+    max-height: 70px;
+    max-width : 70px;
+}
+
+.Div_InfoHeaderPetshop {
+    margin-left   : 3vw;
+    display       : flex;
+    flex-direction: column;
+    font-weight   : bold;
+    color         : #3c3c3b;
+    width         : 100%;
+}
+
+.Text_EnderecoHeaderPetshop {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 12px;
+    color      : #000000;
+}
+
+.Section_InformacoesHeaderPetshop {
+    display       : flex;
+    flex-direction: column;
+    margin-top    : 10px;
+}
+
+.Section_PrimeiraInfoHeaderPetshop {
+    display       : flex;
+    flex-direction: row;
+    width         : 100%;
+}
+
+.Primeira_InfoHeaderPetshop {
+    display       : flex;
+    flex-direction: row;
+    min-width     : 35%;
+}
+
+.Icon_InfoHeaderPetshop {
+    max-width : 12px;
+    max-height: 12px;
+}
+
+.Text_InfoHeaderPetshop {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 12px;
+    color      : #111719;
+}
+
+.Section_SegundaInfoHeaderPetshop {
+    max-width      : 80%;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+/* #endregion */
+
+.divInpuPesquisaProduto {
+    width           : calc(100vw - 20px);
+    padding         : 0px 0px 8px 16px;
+    background-color: #ffffff;
+}
+
+/* #region "Lista de Produtos */
+
+
+/* #region "Card Produto" */
+.ListaPrateleiraDeProdutos {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: space-evenly;
+    margin-bottom  : 8vh;
+}
+
+.Card_InfoProduto {
+    box-sizing   : border-box;
+    background   : #FFFFFF;
+    border       : 1px solid #EFEFEF;
+    box-shadow   : 15px 19px 44px rgba(233, 233, 233, 0.3);
+    border-radius: 12px;
+    margin-bottom: 25px;
+
+    width : 155px;
+    height: 290px;
+
+    overflow: hidden;
+}
+
+.Card_InfoProduto_Estoque {
+    /* width          : 22vw;
+    height         : 90%; */
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.25);
+    border-width: 0.3px;
+    background  : #FFFFFF;
+    border      : 1px solid #EFEFEF;
+    box-shadow  : 15px 20px 44px rgba(233, 233, 233, 0.3);
+    overflow    : hidden;
+}
+
+.Card_DivImgProduto {
+    width      : 100%;
+    min-height : 130px;
+    height     : 130px;
+    display    : grid;
+    place-items: center;
+}
+
+.Card_ImgProdutoEstoque {
+    max-width : 100px;
+    max-height: 100px;
+}
+
+.Card_DivInfoProduto {
+    min-height     : 160px;
+    height         : 160px;
+    width          : 135px;
+    padding        : 0px 10px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+}
+
+.Text_TituloProduto {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 12px;
+    color      : #111719;
+}
+
+.Text_DescricaoProduto {
+    /* word-break: break-word; */
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 9px;
+    color      : #111719;
+
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    margin            : 5px 0px;
+}
+
+.Card_DivPrecoCompra {
+    height: 65px;
+    bottom: 0%;
+}
+
+.Text_PrecoProduto {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 12px;
+    line-height: 15px;
+    color      : #111719;
+}
+
+/* #endregion */
+
+
+/* #region "Adicionar ao Carrinho */
+.Div_AdicionarAoCarrinho {
+    width         : 100%;
+    height        : 35px;
+    display       : flex;
+    flex-direction: row;
+    margin        : 5px 0px;
+}
+
+.Btn_AdicionarAoCarrinho {
+    background   : #EF3838;
+    border       : 1px solid #EF3838;
+    border-radius: 6.7px;
+    display      : grid;
+    place-items  : center;
+}
+
+.Text_ComprarProduto {
+    font-family   : 'Quicksand';
+    font-style    : normal;
+    font-weight   : 700;
+    font-size     : 12px;
+    line-height   : 15px;
+    text-align    : center;
+    letter-spacing: 0.05em;
+    color         : #FFFFFF;
+}
+
+
+
+
+
+.btnMenos {
+    background-color: var(--vermelhoEscuro);
+    border-radius   : 7px 7px 7px 7px;
+    color           : white;
+    font-size       : large;
+    font-weight     : bolder;
+    border-style    : none;
+}
+
+.btnMais {
+    font-size       : large;
+    font-weight     : bolder;
+    color           : white;
+    background-color: var(--vermelhoEscuro);
+    border-radius   : 7px 7px 7px 7px;
+    border-style    : none;
+}
+
+.quantity {
+    display            : flex;
+    font-size          : large;
+    font-weight        : bolder;
+    color              : var(--text-color);
+    border-style       : none;
+    border-top-style   : solid;
+    border-bottom-style: solid;
+    border-width       : 1px;
+    border-color       : #EFEFEF
+}
+
+.quantity input {
+    border-left : none;
+    border-right: none;
+}
+
+/* #endregion */
+/* #endregion */
+
+
+/* #region "Rodape Ver Produtos" */
+.FooterListaDeCompras {
+    background-color: #EF3838;
+    height          : 6.2vh;
+    min-width       : 100%;
+
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+
+    padding: 0px 20px;
+
+    position: absolute;
+    position: fixed;
+    bottom  : 50px;
+}
+
+.Footer_DivIcon {
+    display       : flex;
+    flex-direction: row;
+    width         : 40vw;
+}
+
+.Footer_DivIcon>img {
+    margin-right: 7px;
+}
+
+.Footer_DivIcon>p,
+.Footer_PrecoCompra>p {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 14px;
+    color      : #FFFFFF;
+}
+
+.Footer_PrecoCompra {
+    display       : flex;
+    flex-direction: row;
+    width         : 25vw;
+}
+
+.divFooterListaCompleta {
+    background-color: #EF3838;
+    height          : calc(100vh - 100px);
+    min-width       : 100%;
+    padding         : 0px 8px;
+    display         : flex;
+    flex-direction  : column;
+
+    position        : absolute;
+    position        : fixed;
+    bottom          : 50px;
+    /* filter       : drop-shadow(2px -2px 4px #585858); */
+    /* transition   : height 1s; */
+    overflow        : auto;
+}
+
+.Title_FecharDiv {
+    height         : 30px;
+    position       : sticky;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+    margin         : 15px 15px;
+}
+
+.Figure_SetaBoxPagamento {
+    height  : 30px;
+    width   : 30px;
+    overflow: hidden;
+
+}
+
+.Icon_SetaBoxPagamento {
+    height: 45px;
+    width : 45px;
+}
+
+.Div_TituloBoxPagamento {
+    margin-left: -45px;
+    width      : 100%;
+    text-align : center;
+}
+
+.Div_TituloBoxPagamento>p {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 16px;
+    color      : #FFFFFF;
+}
+
+.FooterListaPedidos {
+    display       : flex;
+    flex-direction: row;
+    width         : 90%;
+    margin        : 0px 0px 0px 5px;
+}
+
+.FooterListaPedidosRodape {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color       : #EAEAEA;
+}
+
+.div_ListaProdutosPedidos {
+    background-color: #FFFFFF;
+    border-radius   : 10px;
+    margin          : 15px;
+    padding-left    : 15px;
+    width           : 86%;
+    height          : 80vh;
+    box-shadow      : 0px -1px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+.DivTituloFooter_ListaDePedidos {
+    display       : flex;
+    flex-direction: row;
+    width         : 95%;
+    margin-top    : 10px;
+    padding-bottom: 3px;
+}
+
+.Text_SubtituloResumoCompra {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 12px;
+    color      : #979797;
+}
+
+.Text_TextoResumoCompra {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 12px;
+    color      : #111719;
+}
+
+.div_TituloQnt {
+    font-weight: 700;
+    font-size  : large;
+    width      : 20%;
+    text-align : center;
+}
+
+.div_TitulProduto {
+    font-weight : 700;
+    font-size   : large;
+    width       : 60%;
+    padding-left: 7px;
+}
+
+.div_TitulPreco {
+    font-weight : 700;
+    font-size   : large;
+    width       : 20%;
+    padding-left: 2px;
+    text-align  : center;
+}
+
+.Footer_MostrarQntPedida {
+    width      : 18%;
+    font-size  : medium;
+    font-weight: 500;
+    text-align : center;
+}
+
+.Footer_MostrarQntPedida>p {
+    color: #04080F;
+}
+
+.Footer_MostrarProdutosPedidos {
+    padding-left         : 2%;
+    padding-right        : 4px;
+    width                : 60%;
+    font-size            : medium;
+    font-weight          : 500;
+    text-align           : left;
+    overflow             : hidden;
+    /* text-overflow     : ellipsis; */
+    display              : -webkit-box;
+    -webkit-line-clamp   : 1;
+    -webkit-box-orient   : vertical;
+}
+
+.Footer_MostrarProdutosPedidos>p {
+    color: #04080F;
+}
+
+.Footer_MostrarPrecoDoPedido {
+    width       : 18%;
+    font-size   : medium;
+    font-weight : 500;
+    text-align  : center;
+    padding-left: 5px;
+}
+
+.Footer_MostrarPrecoDoPedido>p {
+    color: #04080F;
+}
+
+.p_PrecoTotalListaDeCompra {
+    color      : black;
+    font-size  : large;
+    font-weight: 700;
+
+    margin-top    : 1vh;
+    padding-bottom: 2vh;
+}
+
+.Footer_divImgProdutoPedido {
+    padding : 2px;
+    overflow: hidden;
+    height  : auto;
+    width   : 40%;
+}
+
+.Footer_imgProdutoPedido {
+    height: 150px;
+}
+
+.Footer_infoCompra {
+    padding-left: 3%;
+    width       : 50%;
+}
+
+.Footer_infoCompra>p {
+    font-weight: 500;
+}
+
+.Footer_PrecoDaCompra {
+    height          : 9vh;
+    background-color: #fafafa;
+    position        : -webkit-sticky;
+    position        : sticky;
+    width           : 90%;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-between;
+    align-items     : center;
+    padding         : 0px 8px;
+    text-align      : left;
+
+}
+
+.Btn_ConcluirPedido {
+    margin          : 1.5vh 2vw 1.5vh 0px;
+    background-color: var(--amarelo);
+    height          : 5vh;
+    color           : white;
+    border-style    : none;
+    padding         : 2px 5px;
+    border-radius   : 10px;
+    font-weight     : 700;
+    float           : right;
+}
+
+.formulario-getnet {
+    /* width: 70%; */
+    width              : 94%;
+    padding            : 10px 0px;
+    padding-right      : 4px;
+    /* background-color: #C4C4C4; */
+    margin-bottom      : 2vh;
+}
+
+.Text_TituloFormaDePagamento {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+    margin         : 10px 15px 5px 5px;
+}
+
+.Text_TituloFormaDePagamento>p {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 12px;
+    color      : #111719;
+}
+
+.inputCheckPagamento {
+    accent-color: var(--vermelho-escuro);
+}
+
+.checkbox_pagamento {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: space-around;
+    margin-bottom  : 1vh;
+}
+
+.form-linha,
+.form_DataExpiracaoDoCartao {
+    display       : flex;
+    flex-direction: row;
+}
+
+.form_NomeDoCartao,
+.form_NumeroCard,
+.form_CvcCard,
+.div_submitForm {
+    display    : grid;
+    place-items: center;
+}
+
+.form_NomeDoCartao {
+    width: 75%;
+}
+
+.form_DataExpiracaoDoCartao {
+    width          : 25%;
+    justify-content: space-around;
+}
+
+.input_CartaoNomeCompleto {
+    width: 95%;
+}
+
+.input_DataExpiracao {
+    width: 45%;
+}
+
+.form_NumeroCard {
+    width: 85%;
+}
+
+.form_CvcCard {
+    width: 15%
+}
+
+.input_NumeroDoCartao {
+    width: 95%;
+}
+
+.input_CvcDoCartao {
+    width: 95%;
+}
+
+.input_CartaoNomeCompleto,
+.input_NumeroDoCartao,
+.input_CvcDoCartao,
+.input_DataExpiracao {
+    height          : 5vh;
+    padding-left    : 2px;
+    border-radius   : 7px;
+    border-style    : solid;
+    border-width    : 1px;
+    border-color    : #EEEEEE;
+    outline         : none;
+    margin-bottom   : 1.5vh;
+    /* box-shadow   : 1px 4px 4px 1px rgba(0, 0, 0, 0.25); */
+}
+
+.input_CartaoNomeCompleto:focus::placeholder,
+.input_NumeroDoCartao:focus::placeholder,
+.input_CvcDoCartao:focus::placeholder,
+.input_DataExpiracao:focus::placeholder {
+    color: var(--vermelho-escuro);
+}
+
+.input_CartaoNomeCompleto:focus,
+.input_NumeroDoCartao:focus,
+.input_CvcDoCartao:focus,
+.input_DataExpiracao:focus {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--vermelho-escuro);
+}
+
+.btn_PagarPedido {
+    text-align      : center;
+    height          : 5vh;
+    width           : 65vw;
+    border-style    : none;
+    border-radius   : 12px;
+    background-color: #EF3838;
+    font-size       : 16px;
+    font-weight     : bold;
+    color           : white;
+}
+
+.ListaParaEscolherEndereco {
+    margin-bottom: 10px;
+}
+
+.div_EnderecoSelecionado {
+    margin-top    : 10px;
+    width         : 100%;
+    display       : flex;
+    flex-direction: row;
+}
+
+.btn_EscolherEnderecoDeEntrega {
+    background-color: white;
+    border          : none;
+    outline         : none;
+    margin-bottom   : 12px;
+}
+
+.p_EnderecoDeEntrega {
+    margin-left: 10px;
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 12px;
+    color      : #000000;
+}
+
+.div_SelecionarEndereco {
+    width : 80%;
+    margin: 0px 10%;
+}
+
+.inputCheckBoxEndereco {
+    height      : 12px;
+    accent-color: var(--text-color-endereco-selecionado);
+    margin      : 0px 3px;
+}
+
+.label_CheckBoxEndereco {
+    font-size  : 13px;
+    color      : black;
+    font-weight: 400;
+}

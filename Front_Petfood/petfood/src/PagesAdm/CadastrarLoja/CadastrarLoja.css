@@ -1,0 +1,45 @@
+.DivCadastroPetshop {
+    background-color: rgba(136,136,136,0.1);
+    min-height: 100vh;
+}
+
+.FormCadastro_Loja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding: 0vh 2.5vw;
+}
+
+.input__Cadastro {
+    width: 75vw;
+    font-size: medium;
+    border-color: rgba(136,136,136,0.4);
+    outline:none;
+}
+
+.input__Cadastro1 {
+    font-size: medium;
+    border-color: rgba(136,136,136,0.4);
+    outline:none;
+    width: 35.5vw;
+}
+
+.item1{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    padding: 0.3vh 2.5vw;}
+
+.btn_Cadastro{
+    margin-top: 0.5vh;
+    text-align:center;
+    height: 4vh;
+    width: 30vw;
+}

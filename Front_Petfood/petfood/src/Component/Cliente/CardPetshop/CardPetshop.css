@@ -1,0 +1,98 @@
+/*#region "Variaveis - root e Css Tela Inteira"*/
+:root {
+    --branco                         : #FFFFFF;
+    --cinza-claro                    : #FFFBFF;
+    --amarelo                        : #FFCE00;
+    --vermelho                       : #FF2226;
+    --vermelho-escuro                : #e82b2f;
+    --text-color                     : #403F4C;
+    --text-color-endereco-selecionado: #EF3838;
+}
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+/*#endregion */
+
+.Component_CardPetshop {
+    padding: 4px 16px;
+}
+
+.Card_Petshop {
+    display       : flex;
+    flex-direction: row;
+    height        : 76px;
+    border-radius : 10px;
+    margin: 5px 0px;
+}
+
+.Card_ImgPetshop {
+    height     : 76px;
+    width      : 76px;
+    display    : grid;
+    place-items: center;
+    overflow   : hidden
+}
+
+.ComponentCard_ImgPetshop {
+    border-radius      : 10px;
+    /* height          : 68px; */
+    max-height         : 68px;
+    /* width           : 68px; */
+    max-width          : 68px;
+    border             : 1px solid #EFEFEF;
+    background-image   : url('./../../../Assets/Detalhes/PetshopImgError.png');
+}
+
+.Card_InfoPetshop {
+    padding        : 8px 10px 4px 18px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-evenly;
+    width          : calc(100% - 100px);
+}
+
+.Card_InfoPetshopText {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 14px;
+    line-height: 18px;
+    color      : #111719;
+}
+
+.Card_InfoPetshopInfo {
+    width          : 85%;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.Card_DetalhePetshop {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+}
+
+.Card_InfoPetshopIconAvaliacao {
+    margin: 0px 3px 0px 0px;
+    height: 14px;
+    width : 14px;
+}
+
+.Card_InfoPetshopIcon {
+    margin: 0px 3px 0px 0px;
+    height: 7px;
+    width : 7px;
+}
+
+.Card_textInfoPetshop {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 14px;
+    line-height: 18px;
+}

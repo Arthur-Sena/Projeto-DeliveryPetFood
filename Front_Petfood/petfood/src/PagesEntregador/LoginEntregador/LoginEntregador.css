@@ -1,0 +1,40 @@
+.inputCadastroMotoboy {
+    width           : 65vw;
+    height          : 6.5vh;
+    border          : none;
+    font-size       : large;
+    outline         : none;
+    background-color: var(--branco);
+    box-shadow      : 2px 2px 5px var(--text-color);
+    border-radius   : 15px;
+    padding-left    : 15px;
+    padding-right   : 15px;
+    margin-top      : 1.75vh;
+}
+
+.btnCadastroImgMotoboy{
+    width: 65vw;
+    padding: 0px 15vw;
+}
+
+.div_ImgCadastroEntregador {
+    height     : 15vh;
+    display    : grid;
+    place-items: center;
+}
+
+.div_ImgCadastroEntregador>img {
+    height: 120px;
+}
+
+@media (max-width:490px) {
+    .div_ImgCadastroEntregador>img {
+        height: 75px;
+    }
+}
+
+@media (max-width:300px) {
+    .div_ImgCadastroEntregador>img {
+        height: 55px;
+    }
+}

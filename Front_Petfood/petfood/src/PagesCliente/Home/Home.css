@@ -1,0 +1,237 @@
+/*#region "Variaveis - root e Css Tela Inteira"*/
+:root {
+    --branco                         : #FFFFFF;
+    --cinza-claro                    : #FFFBFF;
+    --amarelo                        : #FFCE00;
+    --vermelho                       : #FF2226;
+    --vermelho-escuro                : #e82b2f;
+    --text-color                     : #403F4C;
+    --text-color-endereco-selecionado: #EF3838;
+}
+
+* {
+    margin             : 0;
+    padding            : 0;
+    font-family        : 'Quicksand';
+    /* overflow-x      : hidden; */
+}
+
+.Home {
+    min-height      : 100vh;
+    max-width       : 100vw;
+    overflow-x      : hidden;
+    background-color: var(--branco);
+    margin-bottom   : 5vh;
+}
+
+/*#endregion */
+
+/*#region "Navigator Enderecos do Usuario + Logo Petfood"*/
+.Component_NavEndereco {
+    height         : 74px;
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: space-between;
+    padding        : 0px 15px 5px 15px;
+}
+
+.Component_DivEnderecoSelecionado {
+    width     : 35vw;
+    text-align: left;
+}
+
+.Component_BtnEscolherEndereco {
+    border          : none;
+    background-color: #ffffff;
+    height          : auto;
+}
+
+.Text_TituloEntrega {
+    font-size  : 13px;
+    color      : black;
+    font-weight: 400;
+}
+
+.Div_TextImg_EnderecoEntrega {
+    display       : flex;
+    flex-direction: row;
+}
+
+.Text_EnderecoEntrega {
+    font-size   : 13px;
+    color       : var(--text-color-endereco-selecionado);
+    font-weight : 500;
+    margin-right: 2px;
+}
+
+.ComponentImg_LogoPetfood {
+    text-decoration: none;
+    height         : 15px;
+}
+
+.Component_ListaParaEscolherEndereco {
+    padding      : 0px 10vw;
+    margin-bottom: 1.5vh;
+    margin-top   : -1vh;
+}
+
+.Component_SelecionarEndereco {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+}
+
+.Component_inputCheckBoxEndereco {
+    height      : 12px;
+    accent-color: var(--text-color-endereco-selecionado);
+    margin      : 0px 3px;
+}
+
+
+/*#endregion */
+
+/*#region "RegionName Inicio do input de pesquisa" */
+.inputBusca {
+    width           : calc(100vw - 20px);
+    padding         : 0px 0px 8px 16px;
+    background-color: #ffffff;
+}
+
+.inputBuscar {
+    height : 48px;
+    width  : calc(100% - 20px);
+    padding: 0px 46px;
+
+    border-radius: 10px;
+    border       : none;
+    font-family  : 'Quicksand';
+    font-style   : normal;
+    font-weight  : 400;
+    font-size    : 14px;
+    line-height  : 18px;
+
+    outline         : none;
+    color           : #6E7489;
+    background-color: #F1F1F1;
+    box-shadow      : 3px 3px 6px var(--text-color);
+
+    background-image   : url(./../../Assets/Icons/LupaBuscaVermelha.svg);
+    background-repeat  : no-repeat;
+    background-position: left 16px bottom 52%;
+}
+
+/*#endregion */
+
+
+
+/* -------------------------------Lista de Petshops Proximo------------------------- */
+.divPetshop {
+    display       : flex;
+    flex-direction: column;
+    padding       : 0px 10px 10px 10px;
+    margin-bottom : 5vh;
+}
+
+.TituloDivPetshop {
+    padding-left : 2.5vw;
+    margin-bottom: 2vh;
+    font-size    : larger;
+    color        : black;
+}
+
+.Div_FiltroHome {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.btn_FiltroDeLojas {
+    margin-right    : 8px;
+    width           : 60px;
+    height          : 20px;
+    background-color: #FEDBDD;
+    border-radius   : 7px;
+    border          : none;
+
+
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    align-items    : center;
+    font-family    : 'Quicksand';
+    font-style     : normal;
+    font-weight    : 500;
+    font-size      : 10px;
+    line-height    : 12px;
+    color          : #FC7844;
+}
+
+.div_FiltrosDaHome {
+    padding      : 0px 15px;
+    margin-bottom: 2vh;
+}
+
+.div_FiltrarPorNota {
+    display       : flex;
+    flex-direction: row;
+    width         : 100%;
+}
+
+.div_PorNota {
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-evenly;
+    align-items     : center;
+    padding         : 2px;
+    height          : 20px;
+    width           : 20%;
+    border-style    : solid;
+    border-width    : 0.5px;
+    border-color    : var(--vermelho-escuro);
+    background-color: white;
+}
+
+.div_PorNota {
+    font-size: 12px;
+}
+
+.div_PorNota:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.div_PorNota:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.inputRangeFiltro {
+    accent-color   : var(--vermelho-escuro);
+    width          : 100%;
+    height         : 8px;
+    margin-top     : 2px;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-around;
+}
+
+.Home_ErroSemPetshop {
+    max-width : 90vw;
+    max-height: 400px;
+    align-self: center;
+}
+
+/* =------------------------------------------------ */
+
+
+
+@media (max-width:700px) {
+    .imgPetshopHome {
+        height: 109px;
+        width : 109px;
+    }
+
+    .infoPetshop {
+        width: 85vw
+    }
+}

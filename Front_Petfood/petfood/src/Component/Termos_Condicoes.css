@@ -1,0 +1,42 @@
+.telaInteira_termos_Condicoes {
+    display           : flex;
+    justify-content   : center;
+    /* align-items    : center; */
+    /* place-items    : center; */
+}
+
+.tela_termos_Condicoes {
+    margin          : 10% 10%;
+    max-height      : 80%;
+    max-width       : 80%;
+    width           : 80%;
+    height          : 70%;
+    padding         : 5px 6px;
+    overflow-y      : scroll;
+    position        : absolute;
+    position        : fixed;
+    background-color: #f2f2f2;
+    box-shadow      : 1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+    border-radius   : 0px 0px 10px 10px;
+}
+
+.tela_termos_Condicoes::-webkit-scrollbar {
+    width: 5px;
+}
+
+.FecharTermos {
+    position        : absolute;
+    position        : fixed;
+    margin-top      : 7%;
+    height          : 3%;
+    width           : 82%;
+    justify-content : space-around;
+    margin-left     : 9%;
+    background-color: var(--amarelo);
+    border-style    : none;
+    color           : white;
+}
+
+.termos_Privacidade{
+    color: var(--vermelho);
+}

@@ -1,0 +1,14 @@
+.Component_TitleDiv {
+    display    : grid;
+    place-items: center;
+    max-width  : 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Component_TituloText {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 16px;
+}

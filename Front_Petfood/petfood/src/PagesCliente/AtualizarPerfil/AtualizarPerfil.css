@@ -1,0 +1,44 @@
+.meu-box {
+    position   : relative;
+    margin-left: 12%;
+    width      : 100%;
+    margin-top : 4vh;
+}
+
+.input-nome {
+    position        : relative;
+    font-size       : 16px;
+    box-sizing      : content-box;
+    z-index         : 2;
+    height          : 6vh;
+    border          : none;
+    font-size       : large;
+    outline         : none;
+    background-color: var(--branco);
+    box-shadow      : 2px 2px 5px var(--text-color);
+    border-radius   : 15px;
+    padding-left    : 15px;
+    padding-right   : 15px;
+    width      : 70%;
+
+
+}
+
+.label-nome {
+    width      : 100%;
+    position   : absolute;
+    color      : var(--amarelo);
+    font-weight: bold;
+    top        : 5px;
+    bottom     : 0;
+    left       : 12px;
+    right      : 0;
+    transition : 0.5s;
+}
+
+.input-nome:focus+.label-nome {
+    margin-top: 0px;
+    top       : -58%;
+    z-index   : 2;
+    transition: 0.2s;
+}

@@ -1,0 +1,56 @@
+.Lista_EntregadorSemAprovacao {
+    padding: 2vh 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+
+.Card_EntregadorSemAprovacao {
+    background-color: white;
+    width: 300px;
+    height: 340´x;
+    border-radius: 15px 15px 15px 15px;
+    margin: 1vh 1vw;
+}
+
+.CardDados_Entregador{
+    display: flex;
+    flex-direction: column;
+}
+
+.divImg_EntregadorSemAprovacao{
+    padding: 2px 8px;
+    display: grid;
+    place-items: center;
+}
+
+.divSemImg_EntregadorSemAprovacao{
+    height: 192px;
+    width: 144px;
+    padding: 2px 8px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+/* .Img_EntregadorSemAprovacao {
+    height: 32px;
+    width: 24px;
+} */
+
+.info_EntregadorSemAprovacao{
+    padding: 5px 5%;
+}
+
+.DivBtns_EntregadorSemAprovacao{
+    padding: 5px 10%;
+    justify-content: space-between;
+}
+
+.btn_EntregadorSemAprovacao{
+    width: 50%;
+    height: 20px;
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+}

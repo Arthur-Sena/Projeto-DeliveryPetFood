@@ -1,0 +1,179 @@
+.Component_CardPedidoPetshop {
+    margin       : 5px 18px 10px 18px;
+    padding      : 13px;
+    background   : #FFFFFF;
+    border       : 0.977893px solid #EFEFEF;
+    box-shadow   : 14.6684px 19.5579px 44.0052px rgba(233, 233, 233, 0.1);
+    border-radius: 10px;
+}
+
+.Body_CardPedidoPetshop {
+    display       : flex;
+    flex-direction: row;
+    align-items   : initial;
+}
+
+.Figure_CardPedidoPetshop {
+    max-width  : 70px;
+    align-items: center;
+}
+
+.Figure_CardPedidoPetshop>img {
+    border-radius: 10px;
+    max-height   : 68px;
+    max-width    : 68px;
+    border       : 1px solid #EFEFEF;
+}
+
+.Section_CardPedidoPetshop {
+    display        : flex;
+    flex-direction : row;
+    margin-left    : 12px;
+    width          : 100%;
+    justify-content: space-between;
+}
+
+.Informacao_CardPedidoPetshop {
+    margin-top     : 4px;
+    height         : 68px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+}
+
+.Status_CardPedidoPetshop {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    max-height     : 90px;
+}
+
+.Div_CardPedidoPetshop {
+    display       : flex;
+    flex-direction: row;
+    align-items   : flex-start;
+}
+
+.Div_CardPedidoPetshop > img {
+    justify-content: flex-start;
+}
+
+.TextoBasico_CardPedidoPetshop {
+    margin-left: 6px;
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 12px;
+    line-height: 120.5%;
+    color      : #111719;
+}
+
+.TextoNegrito_CardPedidoPetshop {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 12px;
+    line-height: 120.5%;
+    color      : #111719;
+}
+
+.BtnChat_CardPedidoPetshop {
+    margin-top      : 10px;
+    height          : 35px;
+    width           : 100%;
+    border-style    : none;
+    border-radius   : 10px;
+    background-color: #EF3838;
+
+    font-family   : 'Quicksand';
+    font-style    : normal;
+    font-weight   : 700;
+    font-size     : 12px;
+    line-height   : 15px;
+    text-align    : center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align    : center;
+    color         : #FFFFFF;
+}
+
+.BtnVerProdutos_CardPedidoPetshop {
+    margin-top      : 10px;
+    height          : 35px;
+    width           : 100%;
+    border          : 1px solid #F83C53;
+    border-radius   : 10px;
+    background-color: white;
+
+    font-family   : 'Quicksand';
+    font-style    : normal;
+    font-weight   : 700;
+    font-size     : 12px;
+    line-height   : 15px;
+    text-align    : center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align    : center;
+    color         : #F83C53;
+}
+
+.DivStatus_CardPedidoPetshop {
+    width        : auto;
+    height       : 40px;
+    width        : 95px;
+    border-radius: 7px;
+
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 12px;
+    line-height: 12px;
+    text-align : center;
+    display    : grid;
+    place-items: center;
+    color      : #FFFFFF;
+}
+
+.Card_ProdutosPedidosPetshop {
+    margin-top     : 10px;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: space-between;
+    max-height     : 63vh;
+    max-width      : 100%;
+    overflow-x     : hidden;
+    overflow-y     : scroll;
+}
+
+.Divisao_Card_Produtos {
+    margin-top      : 5px;
+    margin-bottom   : 15px;
+    width           : 100%;
+    height          : 1px;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.Title_ProdutosPedidos {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 14px;
+    line-height: 18px;
+    color      : #111719;
+}
+
+.divReturnProdutosPedidos_petshop {
+    display       : flex;
+    flex-direction: column;
+    max-width     : 40vw;
+    text-align    : left;
+    margin-bottom : 5vh;
+
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 11px;
+    line-height: 120.5%;
+    color: #111719;
+}

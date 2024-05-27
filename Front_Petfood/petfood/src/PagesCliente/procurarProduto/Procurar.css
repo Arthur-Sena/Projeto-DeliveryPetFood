@@ -1,0 +1,178 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.Pesquisa {
+    width     : 100vw;
+    max-width : 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.Section_FiltrarPesquisaPorCategoriaProduto {
+    display          : flex;
+    flex-direction   : row;
+    /* min-width     : 100vw; */
+    overflow-x       : scroll;
+    height           : 110px;
+    margin           : 10px 0px;
+}
+
+.Div_FiltrarPesquisaPorCategoriaProduto {
+    display       : flex;
+    flex-direction: column;
+    text-align    : center;
+}
+
+.div_BtnDeFiltro {
+    height       : 62px;
+    width        : 62px;
+    min-height   : 62px;
+    min-width    : 62px;
+    background   : linear-gradient(180deg, #FED8DD 0%, #FEE4DA 100%);
+    box-shadow   : 28px 37px 85px rgba(233, 233, 233, 0.25);
+    border-radius: 9px;
+    display      : grid;
+    place-items  : center;
+    border       : none;
+    margin       : 4px 10px;
+}
+
+.BtnDeFiltro_IconCategoria {
+    max-width : 50px;
+    max-height: 50px;
+}
+
+.BtnDeFiltro_nomeCategoria {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 14px;
+    line-height: 17px;
+    text-align : center;
+    color      : #4A4A4A;
+}
+
+.Section_FiltrarPesquisaPorCategoriaProduto::-webkit-scrollbar {
+    background-color: rgba(255, 255, 255, 0);
+    height          : 2px;
+}
+
+.Section_FiltrarPesquisaPorCategoriaProduto::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.007);
+    height          : 2px;
+}
+
+.Section_ListaCardProdutosPesquisados {
+    display    : grid;
+    place-items: center;
+    margin-top : 20px;
+}
+
+
+.Card_ProdutoPesquisado {
+    background-color: #FFFFFF;
+    border          : 1px solid #EFEFEF;
+    box-shadow      : 14px 19px 44px rgba(233, 233, 233, 0.3);
+    border-radius   : 8px;
+    width           : calc(100% - 40px);
+    height          : 114px;
+    max-height      : 114px;
+    margin-bottom   : 14px;
+    display         : flex;
+    flex-direction  : row;
+    padding         : 7px;
+}
+
+.Card_FotoPesquisarProduto {
+    width      : 35%;
+    height     : 100%;
+    overflow   : hidden;
+    display    : grid;
+    place-items: center;
+}
+
+.Div_ImgProdutoPesquisado {
+    width           : 100px;
+    height          : 100px;
+    display         : grid;
+    place-items     : center;
+    background-color: #F9F9F9;
+    border-radius   : 5px;
+}
+
+.Img_ProdutoProcurado {
+    max-width : 90px;
+    max-height: 90px;
+}
+
+.Card_DivDecricaoProdutoPesquisado {
+    width         : 65%;
+    height        : 100%;
+    padding       : 8px;
+    display       : flex;
+    flex-direction: column;
+}
+
+.Card_TituloProdutoPesquisado {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 12px;
+    color      : #111719;
+
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    margin-bottom: 5px;
+}
+
+.Card_DescricaoProdutoPesquisado {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 10px;
+    color      : #111719;
+
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+.div_PrecoBuscarProduto {
+    display       : flex;
+    flex-direction: row;
+    flex-grow     : 1;
+    width         : 100%;
+    align-items   : flex-end;
+    padding-bottom: 12px;
+}
+
+.Card_PrecoProdutoPesquisado {
+    width        : 90px;
+    height       : 20px;
+    background   : #FFE8E9;
+    border-radius: 6px;
+    display      : grid;
+    place-items  : center;
+}
+
+.Card_TextPrecoProdutoPesquisado {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 12px;
+    color      : #EF3838;
+}
+
+.Img_MensagemProcurarProduto {
+    max-width : 90vw;
+    max-height: 450px;
+}

@@ -1,0 +1,34 @@
+.NovoEndereco {
+    border-color: rgba(136, 136, 136, 0.5);
+}
+
+.divInputCadastroEndereco {
+    text-align: center;
+}
+
+.inputCadastroEndereco {
+    width              : 50vw;
+    height             : 8vh;
+    border             : none;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(128, 128, 128, 0.7);
+    border-width       : 0.5px;
+    font-size          : large;
+    outline            : none;
+}
+
+.inputCadastroEndereco:focus {
+    border-bottom: solid 1px red
+}
+
+.btn_CadastrarNovoEndereco {
+    text-align      : center;
+    height          : 7vh;
+    width           : 72vw;
+    border-style    : none;
+    border-radius   : 15px;
+    background-color: var(--amarelo);
+    font-size       : 16px;
+    font-weight     : bold;
+    margin-top      : 2vh;
+}

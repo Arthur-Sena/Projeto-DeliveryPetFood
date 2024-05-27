@@ -1,0 +1,102 @@
+:root {
+    --branco        : #FFFFFF;
+    --cinza-claro   : #FFFBFF;
+    --amarelo       : #FFCE00;
+    --vermelho      : #FF2226;
+    --vermelhoEscuro: #E82B2F;
+    --text-color    : #403F4C;
+}
+
+.FormCadastro_ProdutoPetshop {
+    padding: 20px;
+}
+
+.DivPetshop_AtualizarProduto {
+    display        : flex;
+    flex-direction : column;
+    align-items    : left;
+    justify-content: center;
+    font-family    : 'Quicksand';
+    font-style     : normal;
+    font-weight    : 600;
+    font-size      : 16px;
+    line-height    : 20px;
+    color          : #9796A1;
+    margin-bottom  : 12px;
+}
+
+.Input_AtualizarProduto {
+    width        : calc(100% - 10px);
+    height       : 60px;
+    padding-left : 5px;
+    background   : #FFFFFF;
+    border       : 1px solid #EEEEEE;
+    box-shadow   : 15px 20px 45px rgba(233, 233, 233, 0.15);
+    border-radius: 10px;
+    outline      : none;
+    margin-top   : 3px;
+}
+
+.Input_AtualizarProduto:focus {
+    border: 1px solid #F83C53;
+}
+
+label:focus-within {
+    color: #F83C53;
+}
+
+.Input_AtualizarProduto:focus::placeholder {
+    color: var(--vermelho);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.label_maiorinputimg {
+    width: calc(100% - 10px);
+}
+
+.input_img {
+    color        : #EF3838;
+    border-radius: 10px;
+    height       : 35px;
+    background   : white;
+    border       : 1px solid #F83C53;
+    border-radius: 6.71698px;
+    display      : grid;
+    place-items  : center;
+    margin-top   : 3px;
+}
+
+.select_input {
+    border-radius: 10px;
+    height       : 50px;
+    background   : white;
+    border       : 1px solid #EEEEEE;
+    border-radius: 6.71698px;
+    display      : grid;
+    place-items  : center;
+    margin-top   : 3px;
+    width        : calc(100% - 10px);
+}
+
+.btn_AtualizarProduto {
+    margin-top      : 1vh;
+    height          : 55px;
+    width           : calc(100% - 10px);
+    border-style    : none;
+    border-radius   : 10px;
+    background-color: #EF3838;
+
+    font-family   : 'Quicksand';
+    font-style    : normal;
+    font-weight   : 600;
+    font-size     : 15px;
+    line-height   : 15px;
+    text-align    : center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align    : center;
+    color         : #FFFFFF;
+}

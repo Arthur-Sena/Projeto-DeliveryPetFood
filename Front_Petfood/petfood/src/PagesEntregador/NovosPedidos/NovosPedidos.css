@@ -1,0 +1,63 @@
+.NovosPedidos {
+    background-color: #191933;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* .divNovosPedidos {
+    min-height: 90vh;
+    background-image: url('../../Assets/alerta.svg') ;
+    background-size: 70vw;
+    opacity: 0.2;
+    margin-left: 15vw;
+    margin-top: 20vh;
+    background-repeat: no-repeat;
+} */
+
+.btnNav_NovosPedidos {
+    background-Color: #9462df;
+    color: white;
+    border-radius: 5px;
+    height: 5vh;
+    /* border-color: none; */
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15vw; 
+}
+
+.btnNav_NovosPedidos > img {
+    filter: invert(100%);
+}
+
+.divListaNovosPedidos {
+    background-color: white;
+    color: rgb(110, 110, 110);
+    /* height: 90vh; */
+}
+
+.DivPai_ReturnChamadasDeEntregas{
+    height: 84vh;
+    padding-bottom: 2vh;
+    overflow-y:scroll;
+    overflow-x:hidden;
+} 
+
+.divPaiListaNovosPedidos{
+    width: 90vw;
+    padding: 2vh 5vw 0vh 5vw;
+}
+
+.DivbtnAceitaEntrega{
+    background-color: white;
+    border: none;
+    text-align: center;
+    padding: 3px;
+}
+
+@media (max-width:700px){
+    .btnNav_NovosPedidos {
+        width: 40vw;
+    }
+}

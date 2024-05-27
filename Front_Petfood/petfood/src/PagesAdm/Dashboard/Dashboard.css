@@ -1,0 +1,146 @@
+.DashboardD {
+    width           : 100%;
+    height          : 100vh;
+    max-height      : 100vh;
+    background-color: rgba(136, 136, 136, 0.1);
+    overflow        : hidden;
+}
+
+.main_Dashboard {
+    display       : flex;
+    flex-direction: row;
+}
+
+.Section_DetalhamentoDashboard {
+    text-align: center;
+}
+
+.div_CardInfoDashboard {
+    margin         : 0% 5%;
+    width          : 90%;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    text-align     : center;
+}
+
+.div_ControllerBtn {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    margin         : 0% 5%;
+    width          : 90%;
+    padding        : 2vh 0px 1vh 0px;
+}
+
+.div_ControllerBtn>button:nth-child(2) {
+    background-color: #8884d8;
+}
+
+.div_ControllerBtn>button:nth-child(3) {
+    background-color: #403F4C;
+}
+
+.div_ControllerBtn>button:nth-child(4) {
+    background-color: #FFCE00;
+}
+
+.div_ControllerBtn>button:nth-child(5) {
+    background-color: #FF2226;
+}
+
+.div_ControllerBtn>button {
+    border-style: none;
+    color       : white;
+    width       : 18%;
+    padding     : 3px;
+}
+
+.div_CardFaturamento {
+    width           : 30%;
+    background-color: white;
+    padding         : 5px 0px;
+}
+
+
+.div_GraficoFaturamento {
+    display    : grid;
+    place-items: center;
+}
+
+.section_InformacoesFaturamentoPetshop {
+    background-color          : rgba(155, 153, 153, 0.1);
+    border-top-right-radius   : 20px;
+    width                     : 300px;
+    min-width                 : 290px;
+    /* height                 : 70%; */
+}
+
+.div_DisplayFlex {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+}
+
+.aside_CardPetshopDashboard {
+    /* padding-top      : 5px; */
+    background-color: white;
+    padding-left    : 8px;
+    min-height      : calc(12% + 10px);
+}
+
+.aside_CardPetshopDashboard>h3 {
+    color        : var(--text-color);
+    margin-bottom: 2px;
+}
+
+.div_DisplayFlex>p {
+    color        : var(--text-color);
+    margin-bottom: 2px;
+}
+
+.barraDivisora {
+    height          : 3px;
+    margin-left     : 4%;
+    width           : 90%;
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.Dashboard_inputBusca {
+    padding-top        : 1vh;
+    padding            : 10px 0px;
+    background-color   : rgba(255, 255, 255, 0);
+    /* background-color: #ffffff; */
+    display            : grid;
+    place-items        : center;
+}
+
+.Dashboard_inputBuscar {
+    padding         : 0px 30px 0px 15px;
+    height          : 6vh;
+    width           : 85%;
+    border-radius   : 10px;
+    border          : none;
+    font-size       : small;
+    outline         : none;
+    background-color: #F2F2F2;
+    box-shadow      : 3px 3px 6px var(--text-color);
+}
+
+.div_ListaDePetshop {
+    height    : 75vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.div_ListaDePetshop::-webkit-scrollbar {
+    background-color: var(--cinza-claro);
+    width           : 4px;
+
+}
+
+.div_ListaDePetshop::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+/* .aside_CardPetshopDashboard {} */

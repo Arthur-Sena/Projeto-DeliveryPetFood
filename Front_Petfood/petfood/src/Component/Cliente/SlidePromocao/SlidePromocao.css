@@ -1,0 +1,155 @@
+:root {
+    --branco                         : #FFFFFF;
+    --cinza-claro                    : #FFFBFF;
+    --amarelo                        : #FFCE00;
+    --vermelho                       : #FF2226;
+    --vermelho-escuro                : #e82b2f;
+    --text-color                     : #403F4C;
+    --text-color-endereco-selecionado: #EF3838;
+}
+
+* {
+    margin     : 0;
+    padding    : 0;
+    font-family: 'Quicksand';
+}
+
+.Component_Propagandas {
+    padding: 10px;
+}
+
+.Component_PropagandasHome {
+    display       : flex;
+    flex-direction: row;
+    width         : 100%;
+    margin-bottom : 2px;
+    padding-bottom: 2px;
+}
+
+#Component_PropagandasHome {
+    overflow-x: scroll;
+}
+
+.Card_PromocaoHome {
+    min-width          : 330px;
+    width              : 330px;
+    height             : 110px;
+    border-radius      : 16px;
+    margin-right       : 3px;
+    display            : flex;
+    flex-direction     : column;
+    align-items        : center;
+    overflow           : hidden;
+}
+
+@media (max-width:500px) {
+    #div_PropgandaHome2 {
+        -webkit-animation: slide2 10s ease infinite;
+    }
+
+    #div_PropgandaHome3 {
+        -webkit-animation: slide3 14s ease infinite;
+    }
+
+    #div_PropgandaHome4 {
+        -webkit-animation: slide4 18s ease infinite;
+    }
+
+    #div_PropgandaHome5 {
+        -webkit-animation: slide5 22s ease infinite;
+    }
+
+    #div_PropgandaHome6 {
+        -webkit-animation: slide6 26s ease infinite;
+    }
+}
+
+@keyframes slide2 {
+    3% {
+        margin-left: -0%
+    }
+
+    50% {
+        margin-left: -332px
+    }
+}
+
+@keyframes slide3 {
+    3% {
+        margin-left: -0%
+    }
+
+    33% {
+        margin-left: -330px
+    }
+
+    66% {
+        margin-left: -660px
+    }
+}
+
+@keyframes slide4 {
+    1% {
+        margin-left: -0%
+    }
+
+    25% {
+        margin-left: -330px
+    }
+
+    50% {
+        margin-left: -662px
+    }
+
+    75% {
+        margin-left: -993px
+    }
+}
+
+@keyframes slide5 {
+    1% {
+        margin-left: -0%
+    }
+
+    20% {
+        margin-left: -330px
+    }
+
+    40% {
+        margin-left: -663px
+    }
+
+    60% {
+        margin-left: -995px
+    }
+
+    80% {
+        margin-left: -1328px
+    }
+}
+
+@keyframes slide6 {
+    1% {
+        margin-left: -0%
+    }
+
+    16% {
+        margin-left: -330px
+    }
+
+    32% {
+        margin-left: -663px
+    }
+
+    48% {
+        margin-left: -995px
+    }
+
+    65% {
+        margin-left: -1328px
+    }
+
+    82% {
+        margin-left: -1670px
+    }
+}

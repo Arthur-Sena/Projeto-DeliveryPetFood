@@ -1,0 +1,18 @@
+.PedidosDaLoja {
+    background-color: rgba(136,136,136,0.1);
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.PedidosDaLoja_Main{
+    padding: 0px 8px 10px 8px;
+}
+
+.divUltimosPedidos_List {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.divProdutosPedidos_Petshop{
+    padding: 0px 5vw 2vh 5vw;
+}

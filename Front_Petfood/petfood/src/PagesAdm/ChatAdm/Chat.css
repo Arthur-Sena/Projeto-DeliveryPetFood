@@ -1,0 +1,66 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.DivNav_ChatPetshopH1{
+    color: #3c3c3b;
+    display: flex;
+    justify-content: center;
+}
+
+.boxPedidosRecentes_chat {
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafa;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0vh 4vw 1.5vh 4vw;
+    padding:5px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.nav_ChatAdm{
+    background-color: white;
+}
+
+.divText_Chat{
+    width: 64vw;
+    margin:0px 2vw 0px 2vw;
+    color: rgb(110, 110, 110);
+}
+
+.div_ListaDePedidosDesseUsuario{
+    height: 16.5vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+} 
+
+.Main_ChatPetshop{
+    height: 66.5vh;
+    background-color: #fafafa;
+    max-width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0px 0px 2vh 0px;
+    display:flex; 
+    flex-direction:column-reverse;
+}
+
+.Footer_ChatPetshop{
+    background-color: #fafafa;
+    height: 10vh;
+
+    width: 100%;
+
+    display:flex;
+    /* position: absolute; */
+    position: fixed;
+    top: 90%;
+}
+
+@media(max-width:700px) {
+    .Main_ChatPetshop{
+        height: 59vh;
+    }
+}

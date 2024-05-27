@@ -1,0 +1,77 @@
+.HomeEntregador {
+    background-color: #191933;
+    height: 99vh;
+    overflow: hidden;
+}
+
+.navEntregador {
+    padding: 10px;
+    color: white;
+    background-color: #2e2f5f;
+    display: flex;
+    justify-content: space-between;
+    height: auto
+}
+
+.divH1Nav {
+    width:50vw;
+}
+
+.div_MotoboyHome{
+    width: 33vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btnNav {
+    background-Color: #9462df;
+    color: white;
+    border-radius: 5px;
+    height: 4.5vh;
+    border: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15vw; 
+    margin-bottom: 5px;
+}
+
+.btnNav > img {
+    filter: invert(100%);
+}
+
+.div_avaliacaoMotoboy{
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
+}
+
+.Grafico {
+    margin-left: 5vw;
+    background-color: #191933;
+    margin-top: 3vh;
+}
+
+.divLucro {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.subdivLucro {
+    text-align: center;
+}
+
+@media (max-width:700px){
+    .btnNav {
+        width: 40vw;
+        /* height: auto; */
+    }
+}

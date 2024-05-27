@@ -1,0 +1,164 @@
+.Dash {
+    background-color: rgba(136, 136, 136, 0.1);
+    min-height      : 100vh;
+    max-width       : 100vw;
+    overflow        : hidden;
+}
+
+.navDash {
+    padding         : 5px;
+    background-image: linear-gradient(to right, rgb(148, 0, 187), rgb(151, 239, 233));
+    color           : white;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-between;
+}
+
+.divDashboard {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-evenly;
+}
+
+.div_btnStatus {
+    width          : 25vw;
+    height         : 4vh;
+    margin-top     : 0.5vh;
+    display        : flex;
+    justify-content: center;
+}
+
+.btn_LojaAberta {
+    background-color: #98CE00;
+    width           : 80%;
+    color           : white;
+    border          : none;
+    padding         : 5px;
+}
+
+.btn_LojaFechada {
+    background-color: #DD1C1A;
+    width           : 80%;
+    color           : white;
+    border          : none;
+    padding         : 5px;
+}
+
+.dashInfo {
+    width           : 22vw;
+    height          : 10vh;
+    background-color: white;
+    margin-top      : 4vh;
+    text-align      : center;
+    color           : rgb(110, 110, 110);
+    padding-bottom  : 15px;
+}
+
+/* -------------------------------- */
+.PedidosRecentes {
+    padding   : 2.4%;
+    margin-top: -2vh;
+
+}
+
+.h2Pedidos {
+    color: rgb(110, 110, 110);
+}
+
+.Div_BoxPedidos {
+    display       : flex;
+    flex-direction: column;
+}
+
+.boxPedidosRecentes {
+    display         : flex;
+    flex-direction  : row;
+    background-color: white;
+    border-radius   : 10px 10px 0px 0px;
+    margin-top      : 1.5vh;
+    padding         : 5px 5px 0px 5px;
+    height          : auto;
+    justify-content : space-between;
+}
+
+.divImgPedido {
+    border-radius: 10px;
+}
+
+.imgPedido {
+    border-radius: 10px;
+    max-height   : 70px;
+    max-width    : 70px;
+}
+
+.divText {
+    width      : 50vw;
+    margin-left: 3vw;
+    color      : rgb(110, 110, 110);
+}
+
+.divStatus {
+    width     : auto;
+    text-align: center;
+    width     : 20vw;
+    height: 8vh;
+}
+
+.div_btnStatus {
+    display       : flex;
+    flex-direction: column;
+    width         : 20vw;
+}
+
+.btn_MudarStatusPedido {
+    width          : 100%;
+    /* border-style: none; */
+    margin-top     : 5px;
+}
+
+.divListaPedidosRecentes_Dash {
+    display       : flex;
+    flex-direction: column-reverse;
+}
+
+.div_LinkChat {
+    background-color: white;
+    border-radius   : 0px 0px 10px 10px;
+    margin-top      : -8px;
+}
+
+.MensagemDeNenhumPedidoRecebido {
+    height         : 15vh;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+}
+
+.div_subDescricaoDoPedido{
+    background-color: white;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.DivBtn_CancelarPedidoAdm{
+    height: 28px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Btn_CancelarPedidoAdm{
+    height: 25px;
+    width: 50%;
+    padding: 2px;
+    border: none;
+    color:white;
+    background-color: red;
+}
+
+@media (max-width:700px) {
+    .dashInfo {
+        width: 44vw;
+    }
+}

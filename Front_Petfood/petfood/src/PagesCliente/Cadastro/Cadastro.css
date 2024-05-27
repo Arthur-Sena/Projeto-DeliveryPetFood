@@ -1,0 +1,160 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+/* --- CORES USADAS NA PAGINA --- */
+:root {
+    --branco     : #FFFFFF;
+    --cinza-claro: #FFFBFF;
+    --amarelo    : #FFCE00;
+    --vermelho   : #FF2226;
+    --text-color : #403F4C;
+}
+
+/* --- ESTILIZACAO DA TELA INTEIRA --- */
+.CadastroUsuario,
+.CadastrarNovoEndereco {
+    height          : 100vh;
+    max-height      : 100vh;
+    max-width       : 100vw;
+    overflow        : hidden;
+    background-color: var(--branco);
+}
+
+/* --- IMAGEM DA LOGO --- */
+.div_ImgCadastro {
+    height     : 20vh;
+    display    : grid;
+    place-items: center;
+}
+
+.div_ImgCadastro>img {
+    height: 105px;
+}
+
+.infoUser_AtualizarEndereco {
+    padding         : 12px;
+    display         : flex;
+    flex-direction  : row;
+    background-color: #fafafa;
+    color           : grey;
+
+    height    : 20vh;
+    max-height: 200px;
+}
+
+/* --- ESTILIZACAO DO FORMULARIO DE CADASTRO --- */
+.formCadastroUsuario,
+.formCadastroNovoEndereco {
+    background-color: var(--cinza-claro);
+    height          : 100%;
+    padding         : 2vh 5vw 3vh 5vw;
+    box-shadow      : 0px -1px 7px var(--text-color);
+    border-radius   : 35px 35px 0px 0px;
+}
+
+.divInputCadastroEndereco {
+    text-align: center;
+}
+
+.input_Login {
+    width           : 65vw;
+    height          : 10vh;
+    border          : none;
+    font-size       : large;
+    outline         : none;
+    background-color: var(--branco);
+    box-shadow      : 2px 2px 5px var(--text-color);
+    border-radius   : 15px;
+    padding-left    : 15px;
+    padding-right   : 15px;
+    margin-top      : 3vh;
+}
+
+.input_Login:focus {
+    box-shadow: 2px 2px 3px var(--vermelho);
+    color     : var(--vermelho);
+}
+
+.input_Login:focus::placeholder {
+    color: var(--vermelho);
+}
+
+.inputCadastroUsuario,
+.inputCadastroNovoEndereco {
+    width           : 65vw;
+    height          : 7vh;
+    border          : none;
+    font-size       : large;
+    outline         : none;
+    background-color: var(--branco);
+    box-shadow      : 2px 2px 5px var(--text-color);
+    border-radius   : 15px;
+    padding-left    : 15px;
+    padding-right   : 15px;
+    margin-top      : 2.1vh;
+}
+
+.div_TermosCondicoes {
+    margin-top : 8px;
+    text-align : center;
+    place-items: center;
+}
+
+/* !!!PS!!!--- EFEITO QUANDO UM INPUT FOR SELECIONADO --- */
+.inputCadastroUsuario:focus,
+.inputCadastroNovoEndereco:focus {
+    box-shadow: 2px 2px 3px var(--vermelho);
+    color     : var(--vermelho);
+}
+
+.inputCadastroUsuario:focus::placeholder,
+.inputCadastroNovoEndereco:focus::placeholder {
+    color: var(--vermelho);
+}
+
+/* --- BOTAO PARA PROXIMA ETAPA DO CADASTRO --- */
+
+.div_BtnEndereco {
+    display           : flex;
+    flex-direction    : row;
+    align-items       : center;
+    justify-content   : center;
+    /* justify-content: space-between; */
+    /* width          : 70vw; */
+}
+
+
+.btn_CadastroUsuario,
+.btn_CadastroNovoEndereco {
+    text-align      : center;
+    margin          : 2vh 2vw;
+    height          : 7vh;
+    width           : 35vw;
+    border-style    : none;
+    border-radius   : 15px;
+    background-color: var(--amarelo);
+    font-size       : 16px;
+    font-weight     : bold;
+    border-color    : #403F4C;
+    border-width    : 0.5px;
+}
+
+.btn_CadastroUsuario {
+    margin-top: 3vh;
+}
+
+@media (max-width:490px) {
+    .div_ImgCadastro>img {
+        height: 60px;
+        width: 329px;
+    }
+}
+
+@media (max-width:300px) {
+    .div_ImgCadastro>img {
+        height: 50px;
+        width: 274px;
+    } 
+}

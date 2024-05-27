@@ -1,0 +1,38 @@
+.Carteira {
+    padding: 10px;
+}
+
+.divCarteira{
+    display: flex;
+}
+
+.DivCarteiraH1{
+    min-width: 80vw;
+    text-align: center;
+    /* color: grey; */
+}
+
+.divDinheiro{
+    /* color: grey; */
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: grey;
+    text-align: center;
+}
+
+.divDeposito {
+    display: flex;
+    height: 5vh;
+    justify-content: space-evenly;
+    margin-bottom: 5vh;
+}
+
+.Deposito {
+    color: green;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: green;
+    width: 35vw;
+    text-align: center;
+    padding-top: 0.6vh;
+}

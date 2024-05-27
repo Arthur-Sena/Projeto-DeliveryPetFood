@@ -1,0 +1,46 @@
+.Component_CardHomePetshop {
+    height        : 74px;
+    margin        : 0px 18px 0px 18px;
+    padding       : 13px;
+    display       : flex;
+    flex-direction: row;
+    border        : 1px solid #EFEFEF;
+    filter        : drop-shadow(15px 20px 45px rgba(233, 233, 233, 0.25));
+    border-radius : 10px;
+    margin-bottom: 10px;
+}
+
+.Component_CardHomePetshop>figure {
+    background   : rgba(254, 219, 221, 0.5);
+    border-radius: 7.49153px;
+    width        : 70px;
+    height       : auto;
+    display      : grid;
+    place-items  : center;
+}
+
+.Aside_CardHomePetshop {
+    margin-left    : 20px;
+    margin-top     : 7px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+}
+
+.Titulo_CardHomePetshop {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 14px;
+    line-height: 18px;
+    color      : #979797;
+}
+
+.Valor_CardHomePetshop {
+    font-family: 'Quicksand';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 28px;
+    line-height: 35px;
+    color      : #111719;
+}

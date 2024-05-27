@@ -1,0 +1,35 @@
+.footerEntregador {
+    width: 100%;
+    height: 6vh;
+
+    display:flex;
+    /* justify-content: space-evenly; */
+
+    background-color: #191933;
+
+    position: absolute;
+    position: fixed;
+    top: 94%;
+} 
+
+.divIcone {
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.LinkImg > img {
+    filter: invert(100%);
+}
+
+.divIcone:hover {
+    background-color: #2e2f5f;
+}
+
+@media (max-height:400px){
+    .tabBar {
+        margin-top: 186%;
+    }
+}

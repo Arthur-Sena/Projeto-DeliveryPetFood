@@ -1,0 +1,21 @@
+.Avaliador {
+    /* margin-top: 3px; */
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between;     */
+}
+
+.estrela {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.divEstrela > img {
+    margin-top: 4px;
+    height: 1.1em;
+    /* filter: invert(100%); */
+}

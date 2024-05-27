@@ -1,0 +1,76 @@
+.divSacola {
+    padding: 10px;
+    display: flex;
+}
+
+.DivSacolaH1 {
+    min-width  : 80vw;
+    text-align : center;
+    margin-left: 7vw;
+}
+
+.icon_navProdutosComprados {
+    filter: invert(100%);
+}
+
+.Div_BoxSacolaComProdutos {
+    margin-top      : 3vh;
+    display         : flex;
+    flex-direction  : column;
+    background-color: #FFFBFF;
+    box-shadow      : 2px 3px 4px 4px rgba(0, 0, 0, 0.35);
+    overflow        : hidden;
+    border-radius   : 15px 15px 0px 0px;
+}
+
+.div_telaProdutosComprados {
+    background-color: #FFFFFF;
+    height          : 100%;
+    padding         : 5px 4vw 0vw 4vw;
+}
+
+.divPai_ProdutosComprados {
+    padding        : 5px 2vw 3vh 2vw;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: space-between;
+
+    max-height      : 61vh;
+    overflow-y      : scroll;
+    overflow-x      : hidden;
+    background-color: white;
+}
+
+.divProdutosCompradosCliente {
+    width     : 40vw;
+    margin-top: 2vh;
+    text-align: center;
+
+    overflow     : hidden;
+    border-width : 2px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow      : 1px 1px 2px 2px rgba(0, 0, 0, 0.35);
+}
+
+.ProdutosComprados_Cliente {
+    height: 150px;
+}
+
+.div_dropDownProdutosComprados{
+    box-shadow      : 2px 9px 3px 3px rgba(0, 0, 0, 0.35);
+}
+
+.Divbtn_DropDown {
+    background-color: rgb(255, 255, 255);
+    border-radius   : 0px 0px 10px 10px;
+    padding         : 2px 2px 2px 7px;
+    overflow        : hidden;
+    box-shadow      : 2px 2px 3px 3px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width:700px) {
+    .DivSacolaH1 {
+        margin-left: 0vw;
+    }
+}

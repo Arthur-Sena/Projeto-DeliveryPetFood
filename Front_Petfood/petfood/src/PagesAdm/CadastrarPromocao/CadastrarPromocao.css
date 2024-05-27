@@ -1,0 +1,64 @@
+.CadastrarPromocao {
+    background-color: rgba(136, 136, 136, 0.1);
+    height      : 100vh;
+    max-height      : 100vh;
+    max-width       : 100vw;
+    overflow        : hidden;
+}
+
+.div_imgCadastrada {
+    width : 330px;
+    height: 88px;
+    overflow:hidden;
+    border-radius: 10px;
+    background-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #171a21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #171a21;
+    margin-bottom: 3vh;
+}
+
+.div_verImgCadastrada{
+    width : 330px;
+    height: 88px;
+}
+
+.item_formPromocao{
+    margin-bottom: 3vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_CadastroPromocao{
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #171a21;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.div_ativarPromocao{
+width: 85vw;
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-around;
+}
+
+.inputRange_formPromocao{
+    background-color: rgba(136, 136, 136, 0.02);
+    width: 80vw;
+}
+
+.btn_CadastroPromocao{
+     height: 33px;
+     width: 30vw;
+}

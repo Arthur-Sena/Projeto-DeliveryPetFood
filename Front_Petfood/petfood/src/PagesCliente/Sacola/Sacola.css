@@ -1,0 +1,413 @@
+.Sacola {
+  min-height: 100vh;
+  max-width : 100vw;
+  overflow  : hidden;
+}
+
+.Div_NavSacolaH2 {
+  color      : white;
+  min-width  : 80vw;
+  font-family: 'Quicksand';
+  font-style : normal;
+  font-weight: 600;
+  font-size  : 16px;
+  margin-top : -10px;
+  color      : #EF3838;
+  margin-left: -15vw;
+}
+
+/* #region "Novo design"*/
+.Div_SacolaInformacoesDoPedido {
+  margin-top         : 3vh;
+  display            : flex;
+  flex-direction     : column;
+  /* background-color: #FFFBFF; */
+  /* box-shadow      : 2px 3px 4px 4px rgba(0, 0, 0, 0.35); */
+  /* border-radius   : 15px; */
+  overflow           : hidden;
+
+  background   : #FFFFFF;
+  border       : 1px solid #EFEFEF;
+  box-shadow   : 15px 20px 44px rgba(233, 233, 233, 0.1);
+  border-radius: 10px;
+}
+
+.Div_SacolaBoxPedido {
+  display         : flex;
+  flex-direction  : row;
+  background-color: white;
+  margin-top      : 0.5vh;
+  height          : auto;
+  justify-content : space-between;
+  padding-bottom  : 1.5vh;
+}
+
+.Div_SacolaInformacaoNomePetshop {
+  height : 50px;
+  padding: 8px 0px 0px 15px;
+}
+
+.P_SacolaInformacaoNomePetshop {
+  font-family: 'Quicksand';
+  font-style : normal;
+  font-weight: 600;
+  font-size  : 14px;
+  color      : #111719;
+}
+
+.Div_SacolaInformacaoNomePetshop {
+  display       : flex;
+  flex-direction: column;
+}
+
+.Div_SacolaPrecoDataPedido {
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+}
+
+.flexrow {
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
+}
+
+.flexrow p {
+  font-family: 'Quicksand';
+  font-style : normal;
+  font-weight: 600;
+  font-size  : 12px;
+  color      : #111719;
+  margin-left: 4px;
+}
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.divSacola {
+  padding         : 10px;
+  display         : flex;
+  background-color: var(--vermelhoEscuro);
+  color           : white;
+}
+
+.icon_NavSacola {
+  filter: invert(100%);
+  height: 30px;
+}
+
+.DivSacolaH1 {
+  min-width  : 80vw;
+  text-align : center;
+  margin-left: 7vw;
+}
+
+.imgSacola {
+  position         : absolute;
+  height           : 60vh;
+  width            : 65vw;
+  background-image : url('../../Assets/bag.svg');
+  background-size  : 25vw;
+  opacity          : 0.1;
+  margin-left      : 35vw;
+  margin-top       : 20vh;
+  background-repeat: no-repeat;
+  overflow         : hidden;
+  z-index          : -1;
+}
+
+.divInfoPedido_Sacola {
+  margin        : 1vh 10vw;
+  display       : flex;
+  flex-direction: column-reverse;
+}
+
+.DivPai_ReturnUltimosPedidos {
+  margin-bottom   : 50px;
+  margin-top      : 60px;
+  background-color: white;
+  padding         : 0vw 4vw 0vw 4vw;
+}
+
+.Div_BoxSacola {
+  margin-top      : 3vh;
+  display         : flex;
+  flex-direction  : column;
+  background-color: #FFFBFF;
+  box-shadow      : 2px 3px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius   : 15px;
+  overflow        : hidden;
+}
+
+.boxSacola {
+  display         : flex;
+  flex-direction  : row;
+  background-color: white;
+  margin-top      : 1.5vh;
+  height          : auto;
+  justify-content : space-between;
+  padding-bottom  : 1.5vh;
+}
+
+.div_FirstInformacoesDoPedido {
+  max-width: 70%;
+}
+
+.div_TextTitulo {
+  text-decoration : none;
+  color           : white;
+  background-color: var(--amarelo);
+  height          : 40px;
+  padding         : 0px 15px;
+  display         : flex;
+  align-items     : center;
+  margin-top      : -10px;
+  width           : 115%;
+}
+
+.divText {
+  min-width: 100%;
+}
+
+.divText>p {
+  color      : black;
+  font-family: 'Quicksand';
+  font-style : normal;
+  font-weight: 600;
+  font-size  : 12px;
+}
+
+.div_statusPedido {
+  margin-top: -10px;
+  width     : 30%;
+}
+
+.subdiv_StatusPedido {
+  color      : black;
+  font-weight: bold;
+  text-align : end;
+  margin     : 2px 5px 0px 0px;
+}
+
+.divStatus {
+  height         : 40px;
+  min-width      : 100%;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  color          : white;
+  border-radius  : 0px 10px 0px 10px;
+  display        : flex;
+  align-items    : center;
+  font-weight    : bold;
+}
+
+.div_LinkChat {
+  padding        : 4px 0px 4px 0px;
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+}
+
+.btn_LinkChat {
+  width              : 45%;
+  border             : none;
+  border-radius      : 25px 25px 25px 25px;
+  padding            : 4px 8px 2px 8px;
+  text-align         : center;
+  background-color   : white;
+  /* color           : var(--amarelo); */
+  color              : black;
+  font-weight        : bolder;
+  font-size          : 13px;
+}
+
+.div_AvaliarEntrega {
+  width           : 100%;
+  padding         : 1vh 0vw 2vh 0vw;
+  min-height      : 10vh;
+  border          : none;
+  border-radius   : 0px 0px 25px 25px;
+  text-align      : center;
+  background-color: white;
+  color           : rgb(110, 110, 110);
+}
+
+.div_InputAvaliacao {
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  align-items    : center;
+  padding        : 0% 7% 0% 5%;
+  height         : 4vh;
+}
+
+.btn_submitAvaliacao {
+  margin         : 1vh 30% 0% 30%;
+  width          : 40vw;
+  height         : 3vh;
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  padding        : 0px 8px 0px 8px;
+
+  border-radius   : 10px;
+  background-color: white;
+  border-style    : solid;
+  border-width    : 0.5px;
+  border-color    : black;
+}
+
+.div_textLabelInput {
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  align-items    : center;
+  font-size      : 11px;
+  width          : 55%;
+  margin-left    : 37%;
+}
+
+/* input[type=range] { */
+.inputRange {
+  height            : 29px;
+  -webkit-appearance: none;
+  width             : 75%;
+}
+
+/* input[type=range]:focus { */
+.inputRange:focus {
+  outline: none;
+}
+
+/* input[type=range]::-webkit-slider-runnable-track { */
+.inputRange::-webkit-slider-runnable-track {
+  width        : 100%;
+  height       : 7px;
+  cursor       : pointer;
+  box-shadow   : 1px 1px 1px #000000;
+  background   : #3071A9;
+  border-radius: 7px;
+  border       : 1px solid #000000;
+}
+
+/* input[type=range]::-webkit-slider-thumb { */
+.inputRange::-webkit-slider-thumb {
+  box-shadow        : 1px 1px 1px #000000;
+  border            : 1px solid #000000;
+  height            : 21px;
+  width             : 13px;
+  border-radius     : 5px;
+  background        : #FFFFFF;
+  cursor            : pointer;
+  -webkit-appearance: none;
+  margin-top        : -8px;
+}
+
+/* input[type=range]:focus::-webkit-slider-runnable-track { */
+.inputRange:focus::-webkit-slider-runnable-track {
+  background: #3071A9;
+}
+
+/* input[type=range]::-moz-range-track { */
+.inputRange::-moz-range-track {
+  width        : 100%;
+  height       : 7px;
+  cursor       : pointer;
+  box-shadow   : 1px 1px 1px #000000;
+  background   : #3071A9;
+  border-radius: 7px;
+  border       : 1px solid #000000;
+}
+
+/* input[type=range]::-moz-range-thumb { */
+.inputRange::-moz-range-thumb {
+  box-shadow   : 1px 1px 1px #000000;
+  border       : 1px solid #000000;
+  height       : 21px;
+  width        : 13px;
+  border-radius: 5px;
+  background   : #FFFFFF;
+  cursor       : pointer;
+}
+
+/* input[type=range]::-ms-track { */
+.inputRange::-ms-track {
+  width       : 100%;
+  height      : 7px;
+  cursor      : pointer;
+  background  : transparent;
+  border-color: transparent;
+  color       : transparent;
+}
+
+/* input[type=range]::-ms-fill-lower { */
+.inputRange::-ms-fill-lower {
+  background   : #3071A9;
+  border       : 1px solid #000000;
+  border-radius: 14px;
+  box-shadow   : 1px 1px 1px #000000;
+}
+
+/* input[type=range]::-ms-fill-upper { */
+.inputRange::-ms-fill-upper {
+  background   : #3071A9;
+  border       : 1px solid #000000;
+  border-radius: 14px;
+  box-shadow   : 1px 1px 1px #000000;
+}
+
+/* input[type=range]::-ms-thumb { */
+.inputRange::-ms-thumb {
+  margin-top   : 1px;
+  box-shadow   : 1px 1px 1px #000000;
+  border       : 1px solid #000000;
+  height       : 21px;
+  width        : 13px;
+  border-radius: 5px;
+  background   : #FFFFFF;
+  cursor       : pointer;
+}
+
+/* input[type=range]:focus::-ms-fill-lower { */
+.inputRange:focus::-ms-fill-lower {
+  background: #3071A9;
+}
+
+/* input[type=range]:focus::-ms-fill-upper { */
+.inputRange:focus::-ms-fill-upper {
+  background: #3071A9;
+}
+
+.Btn_CancelarPedidoCliente {
+  width           : 80%;
+  background-color: var(--vermelhoEscuro);
+  color           : white;
+  border          : none;
+  border-radius   : 10px;
+  padding         : 3px;
+  font-weight     : bold;
+}
+
+@media (max-width:700px) {
+  .DivSacolaH1 {
+    margin-left: 0vw;
+  }
+}
